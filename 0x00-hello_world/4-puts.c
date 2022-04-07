@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main- this is the main function
- * @parameterx: void
+ * @void: returns null
  * Return: return integer
  */
 int main(void)
