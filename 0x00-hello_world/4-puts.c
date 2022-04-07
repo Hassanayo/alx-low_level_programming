@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * main- this is the main function
+ * @parameterx: void
+ * Return: return integer
  */
 int main(void)
 {
