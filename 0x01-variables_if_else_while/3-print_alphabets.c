@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main func
- * Return: return 0
+ * Return: return 0 suc
  */
 int main(void)
 {
