@@ -6,13 +6,14 @@
 int main(void)
 {
 	char ch = 'a';
+	char sh = 'A';
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	for (ch = 'A'; ch < 'Z'; ch++)
+	for (sh = 'A'; sh <= 'Z'; sh++)
 	{
-		putchar(ch);
+		putchar(sh);
 	}
 	putchar(10);
 	return (0);
