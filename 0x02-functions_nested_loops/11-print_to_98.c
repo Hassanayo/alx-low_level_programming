@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 - print numbers to 98
- * @n: start integer
- * Return: void
+ * print_to_98 - print
+ * @n: int
+ * Return: 0
  */
 void print_to_98(int n)
 {
