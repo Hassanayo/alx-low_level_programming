@@ -3,7 +3,7 @@
  * times_table - timestable
  * Return: void
  */
-void time_table(void)
+void times_table(void)
 {
 	int row, column, product, tens, ones;
 
