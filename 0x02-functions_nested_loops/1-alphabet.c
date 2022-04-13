@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - main func
+ * print_alphabet - main func
  * Return: return 0
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char letter = 'a';
 
