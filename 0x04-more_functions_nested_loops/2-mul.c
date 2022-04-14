@@ -1,11 +1,13 @@
 #include "main.h"
 /**
  * mul - multiplies two functions
- * Return: return 0
+ * Return: return multiplication
  */
 
 int mul(int a, int b)
 {
-	a * b;
-	return (0);
+	int times;
+
+	times = a * b
+	return times;
 }
