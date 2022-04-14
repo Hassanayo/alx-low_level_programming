@@ -9,5 +9,5 @@ int mul(int a, int b)
 	int times;
 
 	times = a * b;
-	return times;
+	return (times);
 }
