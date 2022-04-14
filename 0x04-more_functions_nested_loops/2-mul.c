@@ -8,6 +8,6 @@ int mul(int a, int b)
 {
 	int times;
 
-	times = a * b
+	times = a * b;
 	return times;
 }
