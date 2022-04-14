@@ -4,6 +4,7 @@
  * @size: integer
  * Return: 0
  */
+
 void print_triangle(int size)
 {
 	int line = 0;
