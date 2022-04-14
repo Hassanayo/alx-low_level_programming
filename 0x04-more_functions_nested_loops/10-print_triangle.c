@@ -4,31 +4,25 @@
  * @size: integer
  * Return: 0
  */
-
 void print_triangle(int size)
 {
-	int line = 0;
-	int spaces;
-	int hashes;
+	int i = 0, j, n = size - 1;
 
 	if (size > 0)
 	{
-		while (line < size)
+		for (; i < size; i++)
 		{
-			for (spaces = size - 1; spaces > line; spaces--)
+			for (j = 0; j < size; j++)
 			{
-				_putchar(' ');
+				if (j < n)
+					_putchar(' ');
+				else
+					_putchar('#');
 			}
-			for (hashes = 0; hashes < line + 1; hashes++)
-			{
-				_putchar('#');
-			}
+			n--;
 			_putchar('\n');
-			line++;
 		}
 	}
 	else
-	{
 		_putchar('\n');
-	}
 }
