@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
  * main - main func
- * Return: fizzBuzz
+ * Return: 0
  */
+
 int main(void)
 {
 	int i;
