@@ -11,21 +11,21 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			_printf("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			_printf("Fizz ");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			_printf("Buzz ");
+			printf("Buzz ");
 		}
 		else
 		{
-			_printf("%d ", i);
+			printf("%d ", i);
 		}
 	}
-	_printf("\n");
+	printf("\n");
 	return (0);
 }
