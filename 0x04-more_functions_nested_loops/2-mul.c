@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * mul - multiplies two functions
- * Return: return multiplication
+ * mul - multiplies
+ * @a: int a
+ * @b: int b
+ * Return: multiplication
  */
-
 int mul(int a, int b)
 {
 	int times;
