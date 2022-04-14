@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - main func
  * Return: 0
@@ -27,6 +28,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
