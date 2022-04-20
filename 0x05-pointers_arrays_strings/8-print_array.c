@@ -6,7 +6,7 @@
  * @n: no to print
  * Return: void
  */
-void print_array(int *A, int n)
+void print_array(int *a, int n)
 {
 	int i, count;
 
