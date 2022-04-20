@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_rev - print string in reverse
+ * rev_string - print string in reverse
  * @s: pointer
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i, max, half;
 	char first, last;
