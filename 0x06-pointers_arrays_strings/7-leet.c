@@ -6,28 +6,19 @@
  */
 char *leet(char *s)
 {
-	int i, x;
-	int cap = 32;
-	int separators[] = {',', ';', '.', '?', '"',
-		 '(', ')', '{', '}', ' ', '\n', '\t'};
+	char n[5] = {4, 3, 0, 7, 1};
+	char l[5] = {'a', 'e', 'o', 't', 'l'};
+	char *str = s;
+	int i;
 
-	for (i = 0; n[i] != '\0'; i++)
+	while (*s)
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
+		for (i = 0; i < 5; i++)
 		{
-			n[i] = n[i] - cap;
+			if (*s == l[i] -32 || *s == l[i])
+				*s = n[i] + '0';
 		}
-
-		cap = 0;
-
-		for (x = 0; x <= 12; x++)
-		{
-			if (n[i] == separators[x])
-			{
-				x = 12;
-				cap = 32;
-			}
-		}
+		s++;
 	}
-	return (n);
+	return (str);
 }
