@@ -4,7 +4,7 @@
  * @n: string
  * Return: capitalized all words of a string
  */
-chatr *cap_string(char *n)
+char *cap_string(char *n)
 {
 	int i, x;
 	int cap = 32;
