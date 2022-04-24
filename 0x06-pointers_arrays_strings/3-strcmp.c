@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include "main.h"
 /**
  * _strcpy - compares two strings
  * @s1: First string t be compared
