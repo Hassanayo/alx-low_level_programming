@@ -1,30 +1,12 @@
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_diagsums - two diagonals
- * @a: an integer
- * @size: second integer
- *
- * Return: void
+ * set_string - Entry point
+ * @s: input
+ * @to: input
+ * Return: Always 0 (Success)
  */
-void print_diagsums(int *a, int size)
+void set_string(char **s, char *to)
 {
-	int index, sum1 = 0, sum2 = 0;
-
-	for (index = 0; index < size; index++)
-	{
-		sum1 += a[index];
-		a += size;
-	}
-
-	a -= size;
-
-	for (index = 0; index < size; index++)
-	{
-		sum2 += a[index];
-		a -= size;
-	}
-
-	printf("%d, %d\n", sum1, sum2);
+	*s = to;
 }
