@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * _pow_recursion: pow recursion
+  * _pow_recursion - pow recursion
   * @x: int
   * @y: int
   * Return: riased to pwer
