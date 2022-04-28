@@ -1,9 +1,9 @@
 #include "main.h"
  /**
-  * _pow_recursion - pow recursion
-  * @x: int
+  * _pow-recursion - x to the power of y
+  * @x: int 
   * @y: int
-  * Return: riased to pwer
+  * Return: returns x to y
   */
 int _pow_recursion(int x, int y)
 {
