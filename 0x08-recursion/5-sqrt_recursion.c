@@ -28,5 +28,5 @@ int squrt(int n, int i)
 	else if (i * i == n)
 		return (i);
 	else
-		return (squareroot(n, i - 1));
+		return (squrt(n, i - 1));
 }
