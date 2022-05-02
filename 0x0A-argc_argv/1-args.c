@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+
 /**
  * main - Entry Point
  * @argc: arguments
@@ -12,7 +12,7 @@ int main(int argc, __attribute__((unused)) char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
+		printf("%s\n", argv[i]);
 	}
-	printf("%d\n", i - 1);
 	return (0);
 }
