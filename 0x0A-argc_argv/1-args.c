@@ -1,14 +1,18 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
- * main - main func
- * @argc: argc
- * @argv: argv
- * Return: return int
+ * main - prints all arguments received
+ * @argc: the number of arguments
+ * @argv: the array of arguments
+ *
+ * Return: returns 0
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
-	_putchar('\n');
+	int i;
+	
+	for(i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
+
 	return (0);
 }
