@@ -1,12 +1,14 @@
-#include <dog.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "dog.h"
 
 /**
- * init_dog - inits the dog
- * @d: d
- * @age: age
- * @name: name
- * @owner: The owner
+ * init_dog - initializes a new dog variable
+ * @d: the dog variable
+ * @name: the name of the dog
+ * @age: the age
+ * @owner: the owner
+ *
  * Return: void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
