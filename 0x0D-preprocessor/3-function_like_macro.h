@@ -3,3 +3,4 @@
 	return (x * -1);
 #else
 	return x;
+#endif
