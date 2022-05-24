@@ -2,9 +2,8 @@
 
 /**
  * list_len - lists the length of the list
- * @h - single linked list
+ * @h: single linked list
  * Return: number of elements in a linked list
- * 
  */
 size_t list_len(const list_t *h)
 {
@@ -15,6 +14,6 @@ size_t list_len(const list_t *h)
         n++;
         h = h->next;
     }
-    
+
     return (n);
 }
